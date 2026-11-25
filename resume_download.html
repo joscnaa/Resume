@@ -1,0 +1,222 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Josue Cano - Resume</title>
+  <style>
+    :root {
+      --text: #111827;
+      --muted: #374151;
+      --line: #d1d5db;
+      --accent: #0f4c81;
+      --bg: #ffffff;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: "Calibri", "Segoe UI", Arial, sans-serif;
+      color: var(--text);
+      background: #f5f7fb;
+      line-height: 1.42;
+    }
+
+    .page {
+      width: min(900px, 94%);
+      margin: 1.25rem auto;
+      background: var(--bg);
+      border: 1px solid #e5e7eb;
+      border-radius: 10px;
+      box-shadow: 0 10px 28px rgba(0, 0, 0, 0.08);
+      padding: 1.25rem 1.45rem;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 1.7rem;
+      letter-spacing: 0.2px;
+    }
+
+    .contact {
+      margin-top: 0.35rem;
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+
+    .contact a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    .contact a:hover {
+      text-decoration: underline;
+    }
+
+    .target-role {
+      margin-top: 0.55rem;
+      font-weight: 600;
+      color: #1f2937;
+    }
+
+    h2 {
+      margin: 1rem 0 0.35rem;
+      font-size: 0.98rem;
+      text-transform: uppercase;
+      letter-spacing: 0.8px;
+      color: var(--accent);
+      border-bottom: 1px solid var(--line);
+      padding-bottom: 0.22rem;
+    }
+
+    p {
+      margin: 0.4rem 0;
+      font-size: 0.95rem;
+      color: #1f2937;
+    }
+
+    ul {
+      margin: 0.35rem 0 0.55rem 1.1rem;
+      padding: 0;
+    }
+
+    li {
+      margin: 0.24rem 0;
+      font-size: 0.94rem;
+      color: #1f2937;
+    }
+
+    .job {
+      margin-top: 0.6rem;
+    }
+
+    .job h3 {
+      margin: 0;
+      font-size: 0.99rem;
+      color: #111827;
+    }
+
+    .job-meta {
+      margin-top: 0.1rem;
+      color: var(--muted);
+      font-size: 0.9rem;
+      font-style: italic;
+    }
+
+    .skills-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 0.3rem;
+    }
+
+    .skills-grid p {
+      margin: 0.15rem 0;
+    }
+
+    .print-note {
+      margin-top: 1rem;
+      color: #4b5563;
+      font-size: 0.82rem;
+    }
+
+    @media print {
+      body {
+        background: #fff;
+      }
+
+      .page {
+        width: 100%;
+        max-width: 100%;
+        margin: 0;
+        border: none;
+        border-radius: 0;
+        box-shadow: none;
+        padding: 0;
+      }
+
+      .print-note {
+        display: none;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <h1>Josue Cano</h1>
+    <div class="contact">
+      Atlanta, GA • <a href="mailto:joscan555@gmail.com">joscan555@gmail.com</a> •
+      <a href="https://joscnaa.github.io/Portfolio/" target="_blank" rel="noreferrer noopener">GitHub Portfolio</a>
+    </div>
+    <div class="target-role">Target Role: Technical Writer / Workforce Manager / Operations Analyst / Knowledge Management Specialist</div>
+
+    <h2>Professional Summary</h2>
+    <p>
+      Technical writer and workforce operations professional with experience designing scalable support documentation,
+      business report platforms, and troubleshooting frameworks for Tier 1 and Tier 2 organizations. Leadership experience in workforce
+      capacity modeling, workflow automation, and technical documentation. Proven track record translating complex
+      operational metrics into executive dashboards, automating data extraction pipelines using Excel (VBA / Office
+      Scripts) and JavaScript, and authoring structured procedures that improve service-level compliance and
+      cross-functional efficiency.
+    </p>
+
+    <h2>Core Skills</h2>
+    <div class="skills-grid">
+      <p><strong>Data & BI Tools:</strong> Power BI, Power Query, DAX, star schema modeling, row-level security (RLS), Excel (Power Pivot, Pivot Tables, XLOOKUP)</p>
+      <p><strong>Technical Writing:</strong> SOP authoring, troubleshooting guides, knowledge base design, document governance, process documentation</p>
+      <p><strong>Operations Analysis:</strong> workflow mapping, incident trend analysis, escalation path design, SLA/FCR support reporting</p>
+      <p><strong>Support Systems:</strong> ServiceNow process documentation, Five9 and Verint data management.</p>
+      <p><strong>Automation & Tools:</strong> Office Scripts (TypeScript), VBA, Excel, Power BI for operational visibility and reporting</p>
+      <p><strong>Cross-Functional Enablement:</strong> stakeholder interviews, requirements gathering, training-ready documentation</p>
+    </div>
+
+    <h2>Professional Experience</h2>
+    <section class="job">
+      <h3>Technical Writer & Workforce Management Lead (Operations Leadership)</h3>
+      <div class="job-meta">Insight Global — Atlanta, GA | 2022 – Present</div>
+      <ul>
+        <li><strong>Workforce Forecasting & Capacity Modeling:</strong> Analyzed historical ticket and call volume, and
+seasonal demand trends to forecast staffing requirements and maintain Service Level Agreement (SLA) targets across
+multi-tier support queues.</li>
+        <li><strong>Operational Reporting & Dashboarding:</strong> Developed Power BI dashboards and Excel-based reporting
+solutions to visualize key performance indicators (KPIs), SLA compliance, and agent productivity, enabling data-driven decision-making for leadership and operations teams.</li>
+        <li><strong>Reporting & Process Automation:</strong> Engineered automated data-extraction and workbook management workflows
+using Excel VBA and Office Scripts, eliminating manual reporting bottlenecks and accelerating weekly leadership
+metric reviews.</li>
+        <!--<li><strong>Offshore Transition & Vendor Governance:</strong> Designed the end-to-end knowledge transfer architecture and SLA audit
+framework for Tier 1 support operations, authoring comprehensive troubleshooting playbooks to protect First Contact
+Resolution (FCR) and minimize ramp-up time.</li>-->
+        <li><strong>Stakeholder & Cross-Functional Alignment:</strong> Partnered with IT leadership, Tier 2/3 engineering teams, and
+operations managers to gather workflow requirements, identify root causes of ticket escalations, and standardize
+escalation paths.</li>
+        <li><strong>Technical Documentation Systems:</strong> Built and maintained structured knowledge repositories and user-facing
+documentation, translating complex technical procedures into clear, repeatable workflows for internal analysts and
+end-users.</li>
+      
+    </section>
+
+    <section class="job">
+      <h3>Help Desk Analyst / Retail Operations Support</h3>
+      <div class="job-meta">Insight Global — Atlanta, GA | 2021 – 2022</div>
+      <ul>
+        <li>Documented recurring issue patterns and provided root-cause context for engineering follow-up.</li>
+        <li>Standardized ServiceNow intake and triage templates, improving ticket quality and escalation clarity.</li>
+      </ul>
+    </section>
+
+    <h2>Education & Certifications</h2>
+    <ul>
+      <li>Google IT Support Professional Certificate — Coursera</li>
+      <li>Data and Decisions: Applied Statistics — WGU Academy</li>
+    </ul>
+
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:joscan555@gmail.com">joscan555@gmail.com</a></p>
+    <p>GitHub Portfolio: <a href="https://joscnaa.github.io/Portfolio/" target="_blank" rel="noreferrer noopener">https://joscnaa.github.io/Portfolio/</a></p>
+
+  </main>
+</body>
+</html>
